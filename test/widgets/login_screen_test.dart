@@ -55,7 +55,6 @@ void main() {
       expect(find.text('Welcome to Category Manager'), findsOneWidget);
       expect(find.byType(TextFormField), findsOneWidget);
       expect(find.text('Sign In'), findsOneWidget);
-      expect(find.textContaining('Mock Login Note'), findsOneWidget);
     });
 
     testWidgets('shows validation error when submitted empty', (tester) async {
